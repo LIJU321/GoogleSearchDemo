@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<script>
+  function pass()
+{
+   var data =document.getElementById("input").value;
+   return window.open('https://www.google.com/search?q=' + data);
+
+}
+</script>
+<span class="heading">
+    <h1>Search Engine</h1>
+</span>
+  <title>SEARCH ENGINE</title>
+  <hr>
+  <h2 id="result">Hi How Are You Today</h2>
+  </head>
+  <body>
+  <div class="container">
+    <form action="web app tab.html" method="post" target="_blank">
+      <label id="label1" for="search">Search</label>
+      <span>
+        <input id="input" type="text" name="search" placeholder="Search"> 
+        <span class="dr">
+          <input id="bttn" type ="button" value="Search" onclick="pass();">
+        </span>
+      </span>
+      <link rel="stylesheet" type="text/css" href="web app.css">
+    </form>
+    </body>
+  </div>
+</html>
